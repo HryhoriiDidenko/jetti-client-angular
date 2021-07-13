@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { TreeNode } from 'primeng/api';
 import { merge, Observable, Subject, Subscription } from 'rxjs';
 import { filter, map, switchMap, tap, take } from 'rxjs/operators';
-import { ITree, DocumentBase } from 'jetti-middle/dist';
+import { ITree, DocumentBase } from '@x100group/jetti-middle/dist';
 import { v1 } from 'uuid';
 import { DocService } from '../../common/doc.service';
 import { ApiService } from '../../services/api.service';

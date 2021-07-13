@@ -5,7 +5,7 @@ import { ApiService } from '../../services/api.service';
 import { Router } from '@angular/router';
 import { DocService } from '../doc.service';
 import { LoadingService } from '../loading.service';
-import { DocumentBase, Type } from 'jetti-middle/dist';
+import { DocumentBase, Type } from '@x100group/jetti-middle/dist';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,

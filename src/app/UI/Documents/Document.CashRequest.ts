@@ -9,7 +9,7 @@ import { BPApi } from 'src/app/services/bpapi.service';
 import { DynamicFormService } from 'src/app/common/dynamic-form/dynamic-form.service';
 import { take } from 'rxjs/operators';
 import { ApiService } from 'src/app/services/api.service';
-import { DocumentBase } from 'jetti-middle/dist';
+import { DocumentBase } from '@x100group/jetti-middle/dist';
 
 @Component({
   selector: 'doc-CashRequest',

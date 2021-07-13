@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map, share } from 'rxjs/operators';
-import { DocumentBase, RegisterAccumulation } from 'jetti-middle/dist';
+import { DocumentBase, RegisterAccumulation } from '@x100group/jetti-middle/dist';
 import { ApiService } from '../../services/api.service';
 
 @Component({

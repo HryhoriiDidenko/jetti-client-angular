@@ -3,7 +3,7 @@ import { merge, Observable } from 'rxjs';
 import { filter, startWith, switchMap } from 'rxjs/operators';
 import { ApiService } from '../../services/api.service';
 import { DocService } from '../doc.service';
-import { AccountRegister, DocumentBase } from 'jetti-middle/dist';
+import { AccountRegister, DocumentBase } from '@x100group/jetti-middle/dist';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,

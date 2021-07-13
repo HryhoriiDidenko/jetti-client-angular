@@ -3,7 +3,7 @@ import { ConfirmationService, MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
 import { ApiService } from '../services/api.service';
 import { FormGroup } from '@angular/forms';
-import { DocumentBase } from 'jetti-middle/dist';
+import { DocumentBase } from '@x100group/jetti-middle/dist';
 
 @Injectable()
 export class DocService {

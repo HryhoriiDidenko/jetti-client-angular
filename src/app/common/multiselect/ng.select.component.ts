@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ApiService } from '../../services/api.service';
-import { ISuggest, StorageType, FormListFilter } from 'jetti-middle/dist';
+import { ISuggest, StorageType, FormListFilter } from '@x100group/jetti-middle/dist';
 import { IComplexObject } from '../dynamic-form/dynamic-form-base';
 
 @Component({

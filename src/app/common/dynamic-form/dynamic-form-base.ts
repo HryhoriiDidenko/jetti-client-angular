@@ -1,4 +1,4 @@
-import { OwnerRef, StorageType } from 'jetti-middle/dist';
+import { OwnerRef, StorageType } from '@x100group/jetti-middle/dist';
 
 export type ControlTypes =
   'string' | 'number' | 'boolean' | 'date' | 'datetime' | 'table' |
@@ -226,4 +226,3 @@ export class ScriptFormControl extends FormControlInfo {
     if (this.value === undefined) this.value = '';
   }
 }
-

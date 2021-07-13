@@ -7,7 +7,7 @@ import { DynamicFormService } from './common/dynamic-form/dynamic-form.service';
 import { TabControllerComponent } from './common/tabcontroller/tabcontroller.component';
 import { TabsStore } from './common/tabcontroller/tabs.store';
 import { ApiService } from './services/api.service';
-import { IViewModel } from 'jetti-middle/dist';
+import { IViewModel } from '@x100group/jetti-middle/dist';
 
 export class AppRouteReuseStrategy extends RouteReuseStrategy {
   shouldDetach(route: ActivatedRouteSnapshot): boolean { return false; }

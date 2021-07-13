@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
 import { merge, Observable } from 'rxjs';
 import { filter, startWith, switchMap } from 'rxjs/operators';
-import { DocumentBase } from 'jetti-middle/dist';
+import { DocumentBase } from '@x100group/jetti-middle/dist';
 import { ApiService } from '../../services/api.service';
 import { DocService } from '../doc.service';
 

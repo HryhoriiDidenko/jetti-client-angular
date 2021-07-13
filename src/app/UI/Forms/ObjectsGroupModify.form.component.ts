@@ -9,7 +9,7 @@ import { LoadingService } from 'src/app/common/loading.service';
 import { take } from 'rxjs/operators';
 import { IFormControlPlacing } from 'src/app/common/dynamic-form/dynamic-form-base';
 import { Subscription, BehaviorSubject } from 'rxjs';
-import { FormBase } from 'jetti-middle/dist';
+import { FormBase } from '@x100group/jetti-middle/dist';
 
 type panelModify = 'Тип объектов' | 'Параметры' | 'Дополнительно' | 'Фильтр' | 'Список объектов' | 'Новые значения реквизитов' | 'Произвольный запрос';
 type panelLoad = 'Тип объектов' | 'Параметры' | 'Фильтр' | 'Список объектов' | 'Новые значения реквизитов';
@@ -231,4 +231,3 @@ export class ObjectsGroupModifyComponent extends _baseDocFormComponent implement
       });
   }
 }
-

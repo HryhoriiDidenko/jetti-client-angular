@@ -2,7 +2,7 @@ import { ActivatedRoute } from '@angular/router';
 import { ChangeDetectionStrategy, Component, OnInit, ViewChild, Input } from '@angular/core';
 import { AuthService } from 'src/app/auth/auth.service';
 import { BaseHierarchyListComponent } from 'src/app/common/datatable/base.hierarchy-list.component';
-import { FormListFilter, IViewModel } from 'jetti-middle';
+import { FormListFilter, IViewModel } from '@x100group/jetti-middle';
 import { combineLatest } from 'rxjs';
 import { filter, take } from 'rxjs/operators';
 

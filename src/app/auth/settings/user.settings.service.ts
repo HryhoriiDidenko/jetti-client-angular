@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IUserSettings } from 'jetti-middle/dist/common/classes/user-settings';
+import { IUserSettings } from '@x100group/jetti-middle/dist/common/classes/user-settings';
 import { MessageService } from 'primeng/api';
 import { ApiService } from '../../services/api.service';
 

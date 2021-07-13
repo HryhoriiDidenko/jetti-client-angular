@@ -1,7 +1,7 @@
 import { Injectable, OnDestroy } from '@angular/core';
 import { Subject } from 'rxjs';
 import { filter, map, sampleTime, take } from 'rxjs/operators';
-import { IJob, IJobs } from 'jetti-middle/dist';
+import { IJob, IJobs } from '@x100group/jetti-middle/dist';
 import { io } from 'socket.io-client';
 import { AuthService } from '../auth/auth.service';
 import { ApiService } from '../services/api.service';
@@ -50,4 +50,3 @@ export class EventsService implements OnDestroy {
     this.debonce$.unsubscribe();
   }
 }
-

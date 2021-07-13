@@ -20,8 +20,8 @@ import {
   buildColumnDef, ColumnDef, DocumentBase, DocumentOptions, FormListFilter,
   FormListOrder, FormListSettings, IViewModel, matchOperator, Type, matchOperatorByType,
   IUserSettings, FormListColumnProps, IUserSettingsState,
-} from 'jetti-middle';
-import { settingsKind } from 'jetti-middle/dist/common/classes/user-settings';
+} from '@x100group/jetti-middle';
+import { settingsKind } from '@x100group/jetti-middle/dist/common/classes/user-settings';
 // tslint:disable: deprecation
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -1071,4 +1071,3 @@ export class BaseHierarchyListComponent implements OnInit, OnDestroy {
   }
 
 }
-

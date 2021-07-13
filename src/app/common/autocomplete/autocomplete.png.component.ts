@@ -11,7 +11,7 @@ import { v1 } from 'uuid';
 import { DocService } from '../doc.service';
 import { filter } from 'rxjs/operators';
 import { patchOptionsNoEvents } from '../dynamic-form/dynamic-form.service';
-import { Type, ISuggest, OwnerRef, StorageType, FormListSettings, FormListFilter } from 'jetti-middle/dist';
+import { Type, ISuggest, OwnerRef, StorageType, FormListSettings, FormListFilter } from '@x100group/jetti-middle/dist';
 
 function AutocompleteValidator(component: AutocompleteComponent): ValidatorFn {
   return (c: AbstractControl) => {
